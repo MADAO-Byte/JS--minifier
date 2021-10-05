@@ -1,6 +1,6 @@
 const fs = require("fs");
 const {exec} = require('child_process')
-const websiteUrl = 'https://gdscjiit.live/';
+const websiteUrl = 'https://gdscjiit.live/';  //url of site we want to minify
 
   var directoryPath = "mysourcecode"
   exec(`node-site-downloader download -s ${websiteUrl} -d ${websiteUrl} -o ${directoryPath} -v --include-images`,(err,stdout,stderr) =>{
@@ -16,7 +16,7 @@ var codes = fs.readdirSync('mysourcecode.site/js');
 console.log(obj)*/
 
 
-function readIt() {
+/*function readIt() {
   let combined = [];
   let doneCheck = [];
   let errVal = false;
@@ -26,7 +26,7 @@ function readIt() {
   for (let x = 0; x < codes.length; x++) {
       fs.readFile(codes[x], "UTF-8", function (err, data) {
           if (err || !data) {
-              console.log(codes[x]);
+              console.log("err is",codes[x]);
           } else {
               combined.push(data);
               doneCheck[x] = true;
@@ -39,8 +39,10 @@ function readIt() {
 }
 function saveIt(combined, doneCheck, round = 0) {
   let counter = 0;
+  console.log("length is",doneCheck.length)
   for (let x = 0; x < doneCheck.length; x++) {
       if (doneCheck[x] == false) {
+        console.log("y=",x)
           fs.readFile(codes[x], "UTF-8", function (err, data) {
               if (err || !data) {
                   console.log(codes[x]);
@@ -72,4 +74,4 @@ function saveIt(combined, doneCheck, round = 0) {
   });
 }
 
-readIt();
+readIt();*/

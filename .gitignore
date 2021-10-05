@@ -4,3 +4,11 @@ node_modules
 1633111138829.site
 1633111312796.site
 jsm
+mysoucecode.site
+testing
+bundle.js
+composite.all.js
+composite.all.min.js
+tercomposite.all.min.js
+webpack.config.js
+yarn.lock
