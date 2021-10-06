@@ -9,7 +9,7 @@ const websiteUrl = 'https://gdscjiit.live/';  //url of site we want to minify
     }
   })
 
-var codes = fs.readdirSync('mysourcecode.site/js');
+//var codes = fs.readdirSync('mysourcecode.site/js');
 
 
 /*var result = Object.keys(obj).map((key) => [ obj[key]]);
