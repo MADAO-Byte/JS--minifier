@@ -5,7 +5,7 @@
 This is a cli tool to automatically download source code of the given URL and concatenate and minify its javascript file.
 
 ### Install grunt globally Using
-` npm install -g grunt-cli `
+` npm install -g grunt ` <br/>
 ` npm install -g grunt-cli `
 
 
