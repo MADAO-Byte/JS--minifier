@@ -15,7 +15,7 @@ ___npm install -g grunt-cli___
 * Now run the tool using the command:
 ***npm start***
 *Three new js files will be created*
-~testing~
+`testing`
 *Firstly : composite.all.js a file concatinating all js files will be created*
 *Secondly :compositye.all.min.js a file minifying the concatinated script using UGLIFY will be created*
 *Secondly :tercompositye.all.min.js a file minifying  the concatinated script using TERSER will be created*
