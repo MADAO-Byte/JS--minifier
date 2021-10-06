@@ -11,7 +11,7 @@ This is a cli tool to automatically download source code of the given URL and co
 ` npm i `
 
 ### HOW TO USE THE CLI TOOL ###
-* To set URL for the site to be downloade, go to index.js and paste the URL in "const websiteUrl"
+* To set URL for the site to be downloaded, go to index.js and paste the URL in "const websiteUrl"
 * Now run the tool using the command:
  ` npm start `
 
