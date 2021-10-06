@@ -1,1 +1,0 @@
-Failed to fetch version info for vicke4/Blogger.
