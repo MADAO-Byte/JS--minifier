@@ -6,6 +6,8 @@ This is a cli tool to automatically download source code of the given URL and co
 
 ### Install grunt globally Using
 ` npm install -g grunt-cli `
+` npm install -g grunt-cli `
+
 
 ### import modules from package.json file Using ###
 ` npm i `
