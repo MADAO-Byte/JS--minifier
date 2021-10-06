@@ -8,7 +8,7 @@ This is a cli tool to automatically download source code of the given URL and co
 ` npm install -g grunt-cli `
 
 ### import modules from package.json file Using ###
-` npm install package.json `
+` npm i `
 
 ### HOW TO USE THE CLI TOOL ###
 * To set URL for the site to be downloade, go to index.js and paste the URL in "const websiteUrl"
