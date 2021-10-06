@@ -5,10 +5,10 @@
 This is a cli tool to automatically download source code of the given URL and concatenate and minify its javascript file.
 
 ### Install grunt globally Using
-` ___npm install -g grunt-cli___ `
+` ___ npm install -g grunt-cli ___ `
 
 ### import modules from package.json file Using ###
-` ***npm install package.json*** `
+` *** npm install package.json *** `
 
 ### HOW TO USE THE CLI TOOL ###
 * To set URL for the site to be downloade, go to index.js and paste the URL in "const websiteUrl"
