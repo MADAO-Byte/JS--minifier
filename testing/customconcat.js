@@ -1,7 +1,5 @@
 /*This js file is used a custom way to cocat all the javascript files using a semicolon and craete a new concatenated js file
   Along with it in all replcases all sourcing of srcipts in index.html file with our new concatenated file*/
-
-
 const fs = require("fs");
 const path = require("path");
 
