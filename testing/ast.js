@@ -5,23 +5,18 @@ so we only remove the once we have declare,
 for that we use "variable declarator"
 */ 
 
-
-// import pkg from 'abstract-syntax-tree';
-// const {parse,find,replace,generate} = pkg;
-// import fs from 'fs'
 const fs = require("fs");
 const { parse,find,replace,generate } = require('abstract-syntax-tree')
 const key = require("./key")
-console.log(key)
 
 //we are replacing the big variable names with key(small names)
 //import { updateKey } from './key.js';  
 
-var sourceCode = fs.readFileSync('demo.js').toString() 
+var sourceCode = fs.readFileSync('./composite.full.min.js').toString() 
 
 //creating a abstract syntax tree for the code
 const tree = parse(sourceCode)  
-
+console.log(sourceCode)
 //creating a set, it will be useful in mapping keys plus set only stores distinct values
 var identifierset=new Set(); 
 
@@ -48,8 +43,6 @@ for(let x=0;x<10;x++)
     keys=key.updateKey()
     console.log(keys)
 }
-
-
 
  //now all the variables name are replaced with there keys
 replace(tree, node => {                     

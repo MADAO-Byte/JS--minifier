@@ -7,7 +7,7 @@
     "name": "http://reevan.me"
   },
   "scripts": {
-    "start": "node index.js && grunt && node convert.js && node ast.js",
+    "start": "node index.js && grunt && node convert.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

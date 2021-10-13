@@ -2,7 +2,7 @@ mysourcecode.site
 node_modules
 composite.full.min.js
 output.js
-composite.all.js
 hashing.js
+composite.all.js
 .gitignore
 parser.js
