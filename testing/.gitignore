@@ -1,2 +1,8 @@
 mysourcecode.site
 node_modules
+composite.full.min.js
+output.js
+composite.all.js
+hashing.js
+.gitignore
+parser.js

@@ -1,3 +1,4 @@
+//demo js file to see the working of code
 const            fruits = ["Banana", "Orange", "Apple", "Mango"];
              document.getElementById("demo1").innerHTML = fruits;
 fruits.pop();
@@ -7,7 +8,7 @@ fruits.pop();
 
 var iuihihi="pp op";
 var iuihihip="p op";
-iuihihi+=" hai"
+iuihihi+="iuihihi hai"
 
 
 

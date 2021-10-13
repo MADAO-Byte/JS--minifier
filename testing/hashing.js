@@ -1,3 +1,6 @@
+/*An attempt to traverse all js files as a string and replace the variables name with keys*/
+//bad approach 
+
 const { ModuleDeclaration } = require('abstract-syntax-tree');
 const fs = require('fs')
 const map1 = new Map();
@@ -22,11 +25,4 @@ data=data.replace(string,key)
 console.log(data)
 
 
-//var ajdhfkasdnfklewjn=0,bjdldcjdlsjmc,cdlivldsmlddmccl;
 
-// var []1004 1008-12 string
-
-//var pulkit
-
-//var pulkit =3
-//console.log("the value of ")

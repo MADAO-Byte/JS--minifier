@@ -1,7 +1,8 @@
 var key;
 let str = "a";
 var counter=0
-export function updateKey()
+//export 
+function updateKey()
 {
 
    let key = "";
@@ -15,7 +16,10 @@ export function updateKey()
   return key
 };
 
-// for(let x=0;x<100;x++)
+module.exports = { updateKey};
+
+//to print out keys
+// for(let x=0;x<10;x++)
 // {
 //     key=updateKey()
 //     console.log(key)

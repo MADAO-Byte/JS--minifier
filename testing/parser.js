@@ -1,3 +1,4 @@
+//to parse the files
 import ts from 'typescript'
 import fs from 'fs'
 import util from 'util'
